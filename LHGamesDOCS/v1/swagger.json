@@ -113,8 +113,13 @@
         "responses": {
           "200": {
             "description": "OK"
+          },
+          "404": {
+            "description": "API não encontrada"
+          },  
+          "405": {
+            "description": "Não permitido o envio"
           }
-          
         }
       }
     }
