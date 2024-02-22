@@ -4,7 +4,7 @@
     "title": "LH Games - Consumo",
     "description": "Documentacao para consumo de Produtos",
     "termsOfService": "http://lhgames.com/v1/api-docs",
-    "version": "1.0",
+    "version": "1.0.2",
     "contact": {
       "email": "api@lhgames.com"
     }
@@ -14,6 +14,10 @@
       "url": "http://api.lhgames.com/v1",
       "description": "Servidor de Produção"
     },
+    {
+      "url": "http://teste-api.lhgames.com",
+      "description": "Servidor de testes de API"
+    }
    
   ],
   "paths": {
@@ -88,6 +92,19 @@
                     "type": "string",
                     "example": "God of War"
                   },
+                  "foto": {
+                      "type": "string",
+                      "example": ".\\capa1.jpg"
+                    },
+                    "descricao": {
+                      "type": "string",
+                      "example": "aventura"
+                    },
+                    "preco": {
+                      "type": "number",
+                      "format": "float",
+                      "example": 150
+                    }
                 }
               }
             }
